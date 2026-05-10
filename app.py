@@ -44,6 +44,16 @@ import matplotlib.pyplot as plt
 import streamlit as st
 from PIL import Image, ImageDraw, ImageOps
 
+# =========================
+# 中文显示设置
+# =========================
+plt.rcParams["font.sans-serif"] = [
+    "Microsoft YaHei",
+    "SimHei",
+    "Arial Unicode MS",
+    "Noto Sans CJK SC"
+]
+plt.rcParams["axes.unicode_minus"] = False
 
 # ============================================================
 # 页面配置与全局样式
