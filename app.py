@@ -43,25 +43,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import streamlit as st
 from PIL import Image, ImageDraw, ImageOps
-# -*- coding: utf-8 -*-
-
-import matplotlib
-import matplotlib.pyplot as plt
-from matplotlib import font_manager
-
-# =========================
-# Matplotlib 中文字体设置
-# =========================
-plt.rcParams["font.sans-serif"] = [
-    "Noto Sans CJK SC",
-    "Noto Sans CJK JP",
-    "Noto Sans CJK TC",
-    "SimHei",
-    "Microsoft YaHei",
-    "Arial Unicode MS",
-    "DejaVu Sans"
-]
-plt.rcParams["axes.unicode_minus"] = False
 
 
 # ============================================================
